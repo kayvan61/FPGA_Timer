@@ -1,0 +1,27 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto a33c40c676374fd5bbdb7a459b546702 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot upSim_behav xil_defaultlib.upSim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ld [C:/Users/kayva/Lab6/Lab6.srcs/sources_1/new/TimerTop.v:33]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ld [C:/Users/kayva/Lab6/Lab6.srcs/sources_1/new/TimerTop.v:35]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/kayva/Lab6/Lab6.srcs/sources_1/new/TimerTop.v" Line 1. Module TimerTop doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClockDivCount
+Compiling module xil_defaultlib.ClockDivDisp
+Compiling module xil_defaultlib.ClockDivDeb
+Compiling module xil_defaultlib.FlipFlop
+Compiling module xil_defaultlib.DecCounter
+Compiling module xil_defaultlib.FourBitUpCounter
+Compiling module xil_defaultlib.DecDCounter
+Compiling module xil_defaultlib.FourDigDown
+Compiling module xil_defaultlib.ModeMux
+Compiling module xil_defaultlib.hexto7seg
+Compiling module xil_defaultlib.dispMux
+Compiling module xil_defaultlib.TimerTop
+Compiling module xil_defaultlib.upSim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot upSim_behav
